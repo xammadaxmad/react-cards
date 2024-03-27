@@ -1,0 +1,10 @@
+.register-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.btn-login{
+    font-size: 14px;
+}

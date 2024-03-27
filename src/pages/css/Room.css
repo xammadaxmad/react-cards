@@ -1,0 +1,25 @@
+.room-list-container{
+    padding: 20px;
+}
+
+.room-list{
+    padding: 10px;
+    list-style-type: none;
+}
+
+.room-list-item{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.room-list-item-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6%;
+}

@@ -1,0 +1,11 @@
+.menu-card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 0.1s;
+}
+
+.menu-card:hover{
+    transform: translateY(-10px);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

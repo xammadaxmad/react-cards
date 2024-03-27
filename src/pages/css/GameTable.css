@@ -1,0 +1,151 @@
+.game-table-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+    background: radial-gradient(circle at center, #e5510c9b, #e20611e9);
+}
+
+.player-container-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-container-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-table-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.player-container-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.player-profile {
+    text-align: center;
+    color: white;
+}
+
+
+.player-avatar {
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: blue 0px 5px 15px;
+}
+
+.cards-in-hand-icon {
+    width: 80px;
+}
+
+.flip-image {
+    transform: scaleX(-1);
+}
+
+.player-container-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+
+.player-container-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.my-cards-container {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-card {
+    width: 7vw;
+    margin-left: -20px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* filter: blur(0px); */
+
+}
+
+.my-card:hover {
+    z-index: 9999999;
+    transform: translateY(-10px);
+    /* filter: blur(0px); */
+}
+
+
+.player-table {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropped-card {
+    width: 15%;
+    position: absolute;
+}
+
+.card-top {
+    top: 0;
+}
+
+.card-bottom {
+    bottom: 0;
+}
+
+.card-left {
+    left: 0;
+}
+
+.card-right {
+    right: 0;
+}
+
+.player-table {
+    width: 30%;
+    height: 70%;
+}
+
+.cards-out {
+    width: 10%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.current-player {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-out-image {
+    width: 100px;
+}
+
+.boxshadow-inset {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
